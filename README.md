@@ -10,4 +10,6 @@ finish round A Scrambled Words{
 	big data will run about 2 hours
 	algorithm need optimize
 	output is correct
+
+	use pthread optimize can run out about 30 minutes in large case
 }
