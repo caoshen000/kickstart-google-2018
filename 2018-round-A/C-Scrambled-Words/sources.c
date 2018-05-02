@@ -79,18 +79,12 @@ __attribute__((weak, alias("thread1")));
 
 
 void thread_create(void){
-	unsigned int temp = 0;
 	int i =0;
 	memset(&thread, 0, sizeof(thread));
 	
 	while(i != globle_time){		
 		
 		pthread_create(&thread[i], NULL, thread1, NULL);
-	   /* 
-		if(i % 2 == 1){
-			pthread_join(thread[i], NULL);
-		}
-		*/
 		i++;
 		
 	}
