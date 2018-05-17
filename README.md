@@ -13,3 +13,8 @@ finish round A Scrambled Words{
 
 	use pthread optimize can run out about 30 minutes in large case
 }
+
+
+finish round B No Nine problem{
+	use the method in the analysis.
+}
